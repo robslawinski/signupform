@@ -1,0 +1,16 @@
+div
+{
+  text-align: center;
+}
+fieldset
+{
+  border: 10px solid   #9ec4c7;
+  width: 720px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rangetext
+{
+ text-align: center;
+ width: auto;
+}

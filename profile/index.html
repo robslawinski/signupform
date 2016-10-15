@@ -1,4 +1,7 @@
 <html>
+     <head>
+      <link rel ="stylesheet" type="text/css" href="mystyle.css">
+     </head>
      <body>
           <div>
              <h1>
@@ -7,21 +10,26 @@
 	     <label for ="Bio">
 	       Bio
 	     </label><br/><br/>
-	     <textarea rows="10" cols = "85">
+	     <fieldset class ="rangetext">
+	       
 	       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
 	       molestie velit ut luctus gravida.
-	     </textarea>
+	     </fieldset>
 	     <br/>
 	     <br/>
-	     <label for = "password">
+	     <label for = "password" class = "rangetext">
 	       Change Password
 	     </label>
-	     <br/><br/>
+	     <br/>
 	     <input type = "password"/>
 	     <br/><br/>
 	     <label for = "password">Confirm Password</label>
 	     <br/>
 	     <input type = "password">
+	     <br/>
+	     <br/>
+	     <input type ="submit" value ="Change Password">
+
 	   </div> 
      </body>
 </html>
